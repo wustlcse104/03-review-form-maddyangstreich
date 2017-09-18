@@ -1,0 +1,37 @@
+<html>
+<head>
+  <body>
+  <form action="http://kraigh.com/cse104/reviews.php" method="post">
+<fieldset>
+  <legend> Basic Information </legend>
+    <label> Name: <input type="text" /> </label>
+    <label> Email: <input type ="email" /></label>
+  </fieldset>
+  <fieldset>
+    <legend> Review </legend>
+    <select name="menu">
+      <option value="steak">Steak</option>
+      <option value="chicken">Chicken</option>
+      <option value="vegetarian">Vegetarian</option>
+    </select><br />
+     <label for="1">1</label>
+    <input type="radio" name="rating" value="1" /><br />
+    <label for="2">2</label>
+    <input type="radio" name="rating" value="2" /><br />
+    <label for="3">3</label>
+    <input type="radio" name="rating" value="3" /><br />
+    <label for="4">4</label>
+    <input type="radio" name="rating" value="4" /><br />
+    <label for="5">5</label>
+    <input type="radio" name="rating" value="5" /><br />
+    <label for="entered">Greeted upon entrance?</label>
+    <input type="checkbox" name="greeted" value="entered"/> <br />
+    <label for="exited">Greeted upon exit?</label>
+    <input type="checkbox" name="greeted" value="exited"/>
+  </fieldset>
+  <textarea> Comments </textarea> <br />
+  <input type="submit" value="Submit Review" />
+  </form>
+  </body>
+</head>
+</html>
