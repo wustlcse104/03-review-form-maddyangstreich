@@ -4,8 +4,8 @@
   <form action="http://kraigh.com/cse104/reviews.php" method="post">
 <fieldset>
   <legend> Basic Information </legend>
-    <label> Name: <input type="text" /> </label>
-    <label> Email: <input type ="email" /></label>
+    <label> Name: <input type="text" name="name"/> </label>
+    <label> Email: <input type ="email" name="email"/></label>
   </fieldset>
   <fieldset>
     <legend> Review </legend>
@@ -28,9 +28,9 @@
     <input type="checkbox" name="greeted[]" value="entered"/> <br />
     <label for="exited">Greeted upon exit?</label>
     <input type="checkbox" name="greeted[]" value="exited"/>
-  </fieldset>
   <textarea> Comments </textarea> <br />
-  <input type="submit" value="Submit Review" />
+  <button type="submit" value="Submit Review">Submit Review</button>
+</fieldset>
 </form>
 </body>
 </head>
